@@ -26,3 +26,4 @@ class ChatResponse(BaseModel):
     prompt_tokens: int | None = None
     cached_tokens: int | None = None
     similarity_score: float | None = None  # how close the best match was, hit or miss
+    matched_query: str | None = None  # nearest stored question, hit or miss
