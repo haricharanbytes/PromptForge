@@ -25,3 +25,4 @@ class ChatResponse(BaseModel):
     latency_ms: float
     prompt_tokens: int | None = None
     cached_tokens: int | None = None
+    similarity_score: float | None = None  # how close the best match was, hit or miss
