@@ -1,0 +1,440 @@
+{
+  "no_cache": [
+    {
+      "query": "What is the seed rate for HD-3086 wheat?",
+      "category": "novel",
+      "hit": false,
+      "latency_ms": 811.3336563110352,
+      "score": null,
+      "prompt_tokens": 1100,
+      "cached_tokens": 0
+    },
+    {
+      "query": "How much fertilizer nitrogen does maize DHM-117 need?",
+      "category": "novel",
+      "hit": false,
+      "latency_ms": 1149.1529941558838,
+      "score": null,
+      "prompt_tokens": 1100,
+      "cached_tokens": 0
+    },
+    {
+      "query": "What is the seed rate for HD-3086 wheat?",
+      "category": "exact_repeat",
+      "hit": false,
+      "latency_ms": 1069.0855979919434,
+      "score": null,
+      "prompt_tokens": 1100,
+      "cached_tokens": 1024
+    },
+    {
+      "query": "How much seed do I need per hectare for HD-3086?",
+      "category": "paraphrase",
+      "hit": false,
+      "latency_ms": 470.59154510498047,
+      "score": null,
+      "prompt_tokens": 1102,
+      "cached_tokens": 1024
+    },
+    {
+      "query": "What is the seed rate for Pusa Basmati 1121 rice?",
+      "category": "near_miss_trap",
+      "hit": false,
+      "latency_ms": 834.942102432251,
+      "score": null,
+      "prompt_tokens": 1104,
+      "cached_tokens": 0
+    },
+    {
+      "query": "What pH requires lime correction?",
+      "category": "novel",
+      "hit": false,
+      "latency_ms": 655.8048725128174,
+      "score": null,
+      "prompt_tokens": 1095,
+      "cached_tokens": 0
+    },
+    {
+      "query": "Is a soil pH of 5.2 too acidic for wheat?",
+      "category": "novel",
+      "hit": false,
+      "latency_ms": 706.7508697509766,
+      "score": null,
+      "prompt_tokens": 1103,
+      "cached_tokens": 0
+    },
+    {
+      "query": "Is a soil pH of 8.0 too acidic for wheat?",
+      "category": "near_miss_trap",
+      "hit": false,
+      "latency_ms": 690.6247138977051,
+      "score": null,
+      "prompt_tokens": 1103,
+      "cached_tokens": 1024
+    },
+    {
+      "query": "How long should raw field data be archived?",
+      "category": "novel",
+      "hit": false,
+      "latency_ms": 568.7263011932373,
+      "score": null,
+      "prompt_tokens": 1097,
+      "cached_tokens": 0
+    },
+    {
+      "query": "What is the retention period for raw field data?",
+      "category": "paraphrase",
+      "hit": false,
+      "latency_ms": 8725.603342056274,
+      "score": null,
+      "prompt_tokens": 1098,
+      "cached_tokens": 1024
+    },
+    {
+      "query": "What is the recommended row spacing for maize DHM-117?",
+      "category": "novel",
+      "hit": false,
+      "latency_ms": 1768.2876586914062,
+      "score": null,
+      "prompt_tokens": 1101,
+      "cached_tokens": 1024
+    },
+    {
+      "query": "What is the recommended row spacing for HD-3086 wheat?",
+      "category": "near_miss_trap",
+      "hit": false,
+      "latency_ms": 1600.6596088409424,
+      "score": null,
+      "prompt_tokens": 1101,
+      "cached_tokens": 0
+    },
+    {
+      "query": "Can you recommend a fungicide for yellow rust?",
+      "category": "novel",
+      "hit": false,
+      "latency_ms": 9046.542406082153,
+      "score": null,
+      "prompt_tokens": 1098,
+      "cached_tokens": 0
+    },
+    {
+      "query": "What fungicide should I use for yellow rust in wheat?",
+      "category": "paraphrase",
+      "hit": false,
+      "latency_ms": 9766.514539718628,
+      "score": null,
+      "prompt_tokens": 1100,
+      "cached_tokens": 1024
+    },
+    {
+      "query": "What is the capital of France?",
+      "category": "unrelated",
+      "hit": false,
+      "latency_ms": 638.6635303497314,
+      "score": null,
+      "prompt_tokens": 1095,
+      "cached_tokens": 1024
+    },
+    {
+      "query": "What is the seed rate for HD-3086 wheat?",
+      "category": "exact_repeat",
+      "hit": false,
+      "latency_ms": 1722.0361232757568,
+      "score": null,
+      "prompt_tokens": 1100,
+      "cached_tokens": 1024
+    }
+  ],
+  "naive": [
+    {
+      "query": "What is the seed rate for HD-3086 wheat?",
+      "category": "novel",
+      "hit": false,
+      "latency_ms": 1129.7576427459717,
+      "score": null,
+      "prompt_tokens": 1100,
+      "cached_tokens": 1024
+    },
+    {
+      "query": "How much fertilizer nitrogen does maize DHM-117 need?",
+      "category": "novel",
+      "hit": false,
+      "latency_ms": 2100.8496284484863,
+      "score": null,
+      "prompt_tokens": 1100,
+      "cached_tokens": 0
+    },
+    {
+      "query": "What is the seed rate for HD-3086 wheat?",
+      "category": "exact_repeat",
+      "hit": true,
+      "latency_ms": 0.015735626220703125,
+      "score": null,
+      "prompt_tokens": null,
+      "cached_tokens": null
+    },
+    {
+      "query": "How much seed do I need per hectare for HD-3086?",
+      "category": "paraphrase",
+      "hit": false,
+      "latency_ms": 12055.99856376648,
+      "score": null,
+      "prompt_tokens": 1102,
+      "cached_tokens": 0
+    },
+    {
+      "query": "What is the seed rate for Pusa Basmati 1121 rice?",
+      "category": "near_miss_trap",
+      "hit": false,
+      "latency_ms": 9237.206220626831,
+      "score": null,
+      "prompt_tokens": 1104,
+      "cached_tokens": 0
+    },
+    {
+      "query": "What pH requires lime correction?",
+      "category": "novel",
+      "hit": false,
+      "latency_ms": 10166.253328323364,
+      "score": null,
+      "prompt_tokens": 1095,
+      "cached_tokens": 1024
+    },
+    {
+      "query": "Is a soil pH of 5.2 too acidic for wheat?",
+      "category": "novel",
+      "hit": false,
+      "latency_ms": 1763.0841732025146,
+      "score": null,
+      "prompt_tokens": 1103,
+      "cached_tokens": 0
+    },
+    {
+      "query": "Is a soil pH of 8.0 too acidic for wheat?",
+      "category": "near_miss_trap",
+      "hit": false,
+      "latency_ms": 10109.684705734253,
+      "score": null,
+      "prompt_tokens": 1103,
+      "cached_tokens": 1024
+    },
+    {
+      "query": "How long should raw field data be archived?",
+      "category": "novel",
+      "hit": false,
+      "latency_ms": 2566.7316913604736,
+      "score": null,
+      "prompt_tokens": 1097,
+      "cached_tokens": 1024
+    },
+    {
+      "query": "What is the retention period for raw field data?",
+      "category": "paraphrase",
+      "hit": false,
+      "latency_ms": 1676.3916015625,
+      "score": null,
+      "prompt_tokens": 1098,
+      "cached_tokens": 1024
+    },
+    {
+      "query": "What is the recommended row spacing for maize DHM-117?",
+      "category": "novel",
+      "hit": false,
+      "latency_ms": 1812.410831451416,
+      "score": null,
+      "prompt_tokens": 1101,
+      "cached_tokens": 1024
+    },
+    {
+      "query": "What is the recommended row spacing for HD-3086 wheat?",
+      "category": "near_miss_trap",
+      "hit": false,
+      "latency_ms": 1470.198392868042,
+      "score": null,
+      "prompt_tokens": 1101,
+      "cached_tokens": 1024
+    },
+    {
+      "query": "Can you recommend a fungicide for yellow rust?",
+      "category": "novel",
+      "hit": false,
+      "latency_ms": 1616.7457103729248,
+      "score": null,
+      "prompt_tokens": 1098,
+      "cached_tokens": 1024
+    },
+    {
+      "query": "What fungicide should I use for yellow rust in wheat?",
+      "category": "paraphrase",
+      "hit": false,
+      "latency_ms": 903.9475917816162,
+      "score": null,
+      "prompt_tokens": 1100,
+      "cached_tokens": 1024
+    },
+    {
+      "query": "What is the capital of France?",
+      "category": "unrelated",
+      "hit": false,
+      "latency_ms": 1709.909439086914,
+      "score": null,
+      "prompt_tokens": 1095,
+      "cached_tokens": 0
+    },
+    {
+      "query": "What is the seed rate for HD-3086 wheat?",
+      "category": "exact_repeat",
+      "hit": true,
+      "latency_ms": 0.015497207641601562,
+      "score": null,
+      "prompt_tokens": null,
+      "cached_tokens": null
+    }
+  ],
+  "semantic": [
+    {
+      "query": "What is the seed rate for HD-3086 wheat?",
+      "category": "novel",
+      "hit": false,
+      "latency_ms": 9661.574363708496,
+      "score": null,
+      "prompt_tokens": 1100,
+      "cached_tokens": 1024
+    },
+    {
+      "query": "How much fertilizer nitrogen does maize DHM-117 need?",
+      "category": "novel",
+      "hit": false,
+      "latency_ms": 1462.1167182922363,
+      "score": 0.8261295557022095,
+      "prompt_tokens": 1100,
+      "cached_tokens": 0
+    },
+    {
+      "query": "What is the seed rate for HD-3086 wheat?",
+      "category": "exact_repeat",
+      "hit": true,
+      "latency_ms": 332.4415683746338,
+      "score": 1.0,
+      "prompt_tokens": null,
+      "cached_tokens": null
+    },
+    {
+      "query": "How much seed do I need per hectare for HD-3086?",
+      "category": "paraphrase",
+      "hit": true,
+      "latency_ms": 302.7493953704834,
+      "score": 0.9385988116264343,
+      "prompt_tokens": null,
+      "cached_tokens": null
+    },
+    {
+      "query": "What is the seed rate for Pusa Basmati 1121 rice?",
+      "category": "near_miss_trap",
+      "hit": false,
+      "latency_ms": 9204.0696144104,
+      "score": 0.8344497680664062,
+      "prompt_tokens": 1104,
+      "cached_tokens": 1024
+    },
+    {
+      "query": "What pH requires lime correction?",
+      "category": "novel",
+      "hit": false,
+      "latency_ms": 2986.0002994537354,
+      "score": 0.7617336511611938,
+      "prompt_tokens": 1095,
+      "cached_tokens": 1024
+    },
+    {
+      "query": "Is a soil pH of 5.2 too acidic for wheat?",
+      "category": "novel",
+      "hit": false,
+      "latency_ms": 1068.4664249420166,
+      "score": 0.8579381704330444,
+      "prompt_tokens": 1103,
+      "cached_tokens": 1024
+    },
+    {
+      "query": "Is a soil pH of 8.0 too acidic for wheat?",
+      "category": "near_miss_trap",
+      "hit": false,
+      "latency_ms": 3460.773706436157,
+      "score": 0.965323805809021,
+      "prompt_tokens": 1103,
+      "cached_tokens": 0
+    },
+    {
+      "query": "How long should raw field data be archived?",
+      "category": "novel",
+      "hit": false,
+      "latency_ms": 11933.248519897461,
+      "score": 0.7577838897705078,
+      "prompt_tokens": 1097,
+      "cached_tokens": 0
+    },
+    {
+      "query": "What is the retention period for raw field data?",
+      "category": "paraphrase",
+      "hit": true,
+      "latency_ms": 381.7737102508545,
+      "score": 0.9532185792922974,
+      "prompt_tokens": null,
+      "cached_tokens": null
+    },
+    {
+      "query": "What is the recommended row spacing for maize DHM-117?",
+      "category": "novel",
+      "hit": false,
+      "latency_ms": 8943.92704963684,
+      "score": 0.9068771600723267,
+      "prompt_tokens": 1101,
+      "cached_tokens": 1024
+    },
+    {
+      "query": "What is the recommended row spacing for HD-3086 wheat?",
+      "category": "near_miss_trap",
+      "hit": false,
+      "latency_ms": 1089.8075103759766,
+      "score": 0.910641074180603,
+      "prompt_tokens": 1101,
+      "cached_tokens": 1024
+    },
+    {
+      "query": "Can you recommend a fungicide for yellow rust?",
+      "category": "novel",
+      "hit": false,
+      "latency_ms": 1011.6603374481201,
+      "score": 0.799952507019043,
+      "prompt_tokens": 1098,
+      "cached_tokens": 0
+    },
+    {
+      "query": "What fungicide should I use for yellow rust in wheat?",
+      "category": "paraphrase",
+      "hit": true,
+      "latency_ms": 316.97702407836914,
+      "score": 0.9634110927581787,
+      "prompt_tokens": null,
+      "cached_tokens": null
+    },
+    {
+      "query": "What is the capital of France?",
+      "category": "unrelated",
+      "hit": false,
+      "latency_ms": 11083.87303352356,
+      "score": 0.7171375155448914,
+      "prompt_tokens": 1095,
+      "cached_tokens": 0
+    },
+    {
+      "query": "What is the seed rate for HD-3086 wheat?",
+      "category": "exact_repeat",
+      "hit": true,
+      "latency_ms": 408.0970287322998,
+      "score": 1.0,
+      "prompt_tokens": null,
+      "cached_tokens": null
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "strategy": "no_cache",
+    "total_requests": 16,
+    "hits": 0,
+    "hit_rate_pct": 0.0,
+    "avg_latency_ms": 2514.1,
+    "total_latency_ms": 40225.3,
+    "avg_prefix_reuse_pct_on_miss": 46.6,
+    "trap_failures": []
+  },
+  {
+    "strategy": "naive",
+    "total_requests": 16,
+    "hits": 2,
+    "hit_rate_pct": 12.5,
+    "avg_latency_ms": 3645.0,
+    "total_latency_ms": 58319.2,
+    "avg_prefix_reuse_pct_on_miss": 59.9,
+    "trap_failures": []
+  },
+  {
+    "strategy": "semantic",
+    "total_requests": 16,
+    "hits": 5,
+    "hit_rate_pct": 31.2,
+    "avg_latency_ms": 3978.0,
+    "total_latency_ms": 63647.6,
+    "avg_prefix_reuse_pct_on_miss": 50.7,
+    "trap_failures": []
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "strategy": "no_cache",
+    "n_trials": 3,
+    "hit_rate_pct_mean": 0.0,
+    "hit_rate_pct_stdev": 0.0,
+    "avg_latency_ms_mean": 6899.5,
+    "avg_latency_ms_stdev": 1830.5,
+    "avg_prefix_reuse_pct_mean": 17.5,
+    "total_trap_failures_across_all_trials": 0
+  },
+  {
+    "strategy": "naive",
+    "n_trials": 3,
+    "hit_rate_pct_mean": 12.5,
+    "hit_rate_pct_stdev": 0.0,
+    "avg_latency_ms_mean": 6840.5,
+    "avg_latency_ms_stdev": 677.3,
+    "avg_prefix_reuse_pct_mean": 28.8,
+    "total_trap_failures_across_all_trials": 0
+  },
+  {
+    "strategy": "semantic",
+    "n_trials": 3,
+    "hit_rate_pct_mean": 31.2,
+    "hit_rate_pct_stdev": 0.0,
+    "avg_latency_ms_mean": 5140.9,
+    "avg_latency_ms_stdev": 763.6,
+    "avg_prefix_reuse_pct_mean": 25.4,
+    "total_trap_failures_across_all_trials": 0
+  }
+]

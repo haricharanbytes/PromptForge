@@ -58,17 +58,17 @@ cp .env.example .env
 ```
 
 Add your keys to `.env`:
-- `GROQ_API_KEY` — free at [console.groq.com/keys](https://console.groq.com/keys)
-- `HF_TOKEN` — free at [huggingface.co/settings/tokens](https://huggingface.co/settings/tokens)
+- `GROQ_API_KEY` 
+- `HF_TOKEN` 
 
 ## Running it
 
 ```bash
-# Run the API + dashboard
+# Run the API
 uvicorn app.main:app --reload
 # → open http://127.0.0.1:8000/
 
-# Run the fast, offline unit tests (no API calls, no keys needed)
+# Run offline unit tests (no API calls, no keys needed)
 python -m pytest -v
 
 # Run a single benchmark pass across all 3 strategies (real API calls)
