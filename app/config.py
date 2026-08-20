@@ -19,7 +19,7 @@ class Settings(BaseSettings):
     hf_token: str = ""
 
     # to report real cached_tokens (e.g. openai/gpt-oss-20b, openai/gpt-oss-120b, moonshotai/kimi-k2-instruct).
-    chat_model: str = "openai/gpt-oss-20b"
+    chat_model: str = "openai/gpt-oss-120b"
     embedding_model: str = "ibm-granite/granite-embedding-97m-multilingual-r2"
 
     semantic_cache_threshold: float = 0.92
